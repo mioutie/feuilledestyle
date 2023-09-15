@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+ <fieldset>
+        <legend>Coordonnées</legend>
+    
+	<table>
+        <tr>
+            <td><h4>Nom</h4></td>
+			<td><input placeholder="Saisir votre nom"></td>
+        </tr>
+		<tr>
+            <td><h4>Prénom</h4></td>
+			<td><input placeholder="Saisir votre prénom"></td>
+        </tr>
+		
+		<tr>
+            <td><h4>Mail</h4></td>
+			<td><input type="email"placeholder="saisir votre mail"></td>
+        </tr>
+		<tr>
+            <td><h4>Votre site</h4></td>
+			<td><input type="url"placeholder="entrer votre url"></td>
+        </tr>
+		
+		<tr>
+            <td>
+            <label>Sexe :</label>
+            </td>
+            <td>
+            <input type="radio" id="homme" name="genre" value="homme">
+            <label for="homme">Homme</label>
+
+            
+            <td>
+            <input type="radio" id="femme" name="genre" value="femme">
+            <label for="femme">Femme</label>
+            </td>
+            </tr>
+			<tr>
+            <td>
+            <label>Photos:</label>
+            </td>
+			<td><input type="file"></td>
+        </tr>
+		<tr>
+				<td>Pays</td>
+				<td><select name="Pays" id="">
+                               
+                                <option value="">France</option>
+                                <option value="">Italie</option>
+                                <option value="">Espagne</option>
+                                <option value="">Allemagne</option>
+                                <option value="">Belgique</option>
+                     </select>
+							
+					</td>
+			</tr>
+			<tr>
+				<td>Les langages <br> préferés</td>
+				<td><select name="Pays" id="" multiple>
+                                <option value="">Bureautique</option>
+                                <option value="">DAO</option>
+                                <option value="">Statistiques</option>
+                                <option value="">SGBD</option>
+                                <option value="">Internet</option>
+                                
+                     </select>
+							
+					</td>
+					<tr>
+			<tr>
+				<td>Domaines <br>d'activité</td>
+				
+				<td>
+					<input type="checkbox" id="Informatique" name="genre" value="Informatique"checked>
+						<label for="Informatique">Informatique</label>
+					<input type="checkbox" id="" name="Gestion" value="Gestion">
+						<label for="Gestion">Gestion</label>
+					<input type="checkbox" id="Pédagogie" name="genre" value="Pédagogie" >
+						<label for="Pédagogie">Pédagogie</label>
+				</td>
+			</tr>	
+			<tr>
+            
+			<td><input type="submit" value="Envoyer"></td>
+			<td><input type="submit" value="Annuler"></td>
+        </tr>
+		
+		
+    </table>
+	</fieldset>
+    
+</body>
+</html>
